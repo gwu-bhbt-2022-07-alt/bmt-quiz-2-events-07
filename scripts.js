@@ -1,4 +1,4 @@
-// scripts/main.js
+// script.js
 // Ensure this file is loaded with defer from index.html
 
 // -------------------- Event data (single source of truth) --------------------
@@ -16,7 +16,7 @@ const events = [
         type: "Workshop",
         date: "2025-11-20T10:30:00",
         description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-        image: "images/workshop-js.jpg"
+        image: "workshop-js.jpg"
     },
 
  {
@@ -24,7 +24,7 @@ const events = [
         type: "Talk",
         date: "2025-11-20T11:00:00",
         description: "Explore the evolving landscape of cloud security threats and proactive defense strategies.",
-        image: "images/cybersecurity.jpg"
+        image: "cybersecurity.jpg"
     },
     {
         title: "Introduction to Quantum Computing",
