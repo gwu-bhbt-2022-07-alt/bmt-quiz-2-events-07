@@ -9,7 +9,7 @@ const events = [
         type: "Keynote",
         date: "2025-11-20T09:00:00",
         description: "Join industry visionary Dr. Evelyn Reed as she unveils the next decade of AI innovation.",
-        image: "images/keynote.jpg"
+        image: "keynote.jpg"
     },
     {
         title: "Advanced JavaScript Workshop",
