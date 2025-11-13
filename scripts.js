@@ -2,6 +2,11 @@
 // Ensure this file is loaded with defer from index.html
 
 // -------------------- Event data (single source of truth) --------------------
+
+
+
+
+
 const events = [
     // Day 1
     {
@@ -16,7 +21,7 @@ const events = [
         type: "Workshop",
         date: "2025-11-20T10:30:00",
         description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-        image: "workshop-js.jpg"
+        image: "images/workshop-js.jpg"
     },
 
  {
