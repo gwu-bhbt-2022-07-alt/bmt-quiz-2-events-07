@@ -7,7 +7,7 @@
                 type: "Keynote",
                 date: "2025-11-20T09:00:00",
                 description: "Join industry visionary Dr. Evelyn Reed as she unveils the next decade of AI innovation and its transformative impact on society.",
-                image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th/id/OIP.VLBZ_0DUOKceIyvZXzHccgHaE7?w=246&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
             {
                 title: "Advanced JavaScript Workshop",
@@ -35,7 +35,7 @@
                 type: "Social",
                 date: "2025-11-20T17:00:00",
                 description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers in a relaxed setting.",
-                image: "bmt-quiz-2-events-07/ethics.jpg"
+                image: "https://th.bing.com/th/id/OIP.IfUIMcybZbO6ajsr3ms4ZwHaE8?w=263&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
 
             // --- Day 2: Nov 21, 2025 ---
@@ -44,7 +44,7 @@
                 type: "Talk",
                 date: "2025-11-21T09:30:00",
                 description: "A critical discussion on the societal impact and ethical responsibilities in ML development and deployment.",
-                image: "https://images.unsplash.com/photo-1555252333-9f8dd8a57e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th/id/OIP.n33dCeO_OhHIVfwzPxWnPAHaEK?w=286&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
             {
                 title: "Building Scalable Web Apps with Microservices",
@@ -72,7 +72,7 @@
                 type: "Panel",
                 date: "2025-11-21T16:00:00",
                 description: "Industry leaders discuss the challenges, tools, and culture of building successful remote-first teams.",
-                image: "https://images.unsplash.com/photo-1551836026-d5c88acdc6d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th/id/OIP.XlqV2nRcuQ-xkuzxiMBNxQHaEL?w=283&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
 
             // --- Day 3: Nov 22, 2025 ---
