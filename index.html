@@ -1,97 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    
-    <title>TechCon 2025 Event Schedule</title>
-
-</head>
-
-<body>
-
-    <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechCon 2025 — Event Schedule</title>
+  <link rel="stylesheet" href="main.css" />
+  <script defer src="scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div>
-        <h1 id="site-title">TechCon 2025 Event Schedule</h1>
-        <p class="sub">Nov 19–22, 2025 · Hybrid · Colombo</p>
-      </div>
-
-      <div class="controls">
-        <div class="theme-toggle" role="group" aria-label="Theme controls">
-          <button id="theme-toggle-btn" aria-pressed="false" title="Toggle dark mode">🌙</button>
-        </div>
-        <div class="search-wrap" role="search">
-          <label for="search" class="visually-hidden">Search events</label>
-          <input id="search" type="search" placeholder="Search events..." aria-label="Search events" />
-        </div>
-      </div>
+  <header>
+    <div class="header-content">
+      <h1>TechCon 2025 — Event Schedule</h1>
+      <p class="tagline">Explore. Learn. Connect.</p>
     </div>
-
-    <nav class="filters" aria-label="Event type filters">
-      <div class="container" role="toolbar" aria-label="Filter events">
-
-        <div class="filter-group">
-
-        <button class="filter-btn active" data-filter="All" type="all">All</button>
-        <img src="keynote.jpg" alt="Keynote" class="filter-img"> </div>
-
-        
-<div class="filter-group">
-        <button class="filter-btn" data-filter="Keynote" type="Keynote">Keynote</button>
-         <img src="workshop-js.jpg" alt="Workshop" class="filter-img"> </div>
-
-<div class="filter-group">
-        <button class="filter-btn" data-filter="Workshop">Workshops</button>
-        <img src="cybersecurity.jpg" alt="Talk" class="filter-img"></div>
-
-<div class="filter-group">
-        <button class="filter-btn" data-filter="Talk">Talks</button>
-        <img src="quantum.jpg" alt="Panel" class="filter-img"></div>
-
-<div class="filter-group">
-        <button class="filter-btn" data-filter="Panel">Panels</button>
-        <img src="panel-remote.jpg" alt="Panel" class="filter-img">
-    </div>
-
-        <div class="filter-group">
-        <button class="filter-btn" data-filter="Social">Social</button>
-     <img src="mixer.jpg" alt="Panel" class="filter-img"></div>
-
-      </div>
-    </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
   </header>
 
   <main>
-    <div class="container">
-      <section id="event-toolbar" class="toolbar">
-        <div id="results-aria" aria-live="polite" class="results-aria">Showing all events</div>
-      </section>
-       
-
-
-      <section id="event-container" class="event-grid" aria-live="polite"></section>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search events..." aria-label="Search events">
+      <div class="filters">
+        <button class="filter-btn active" data-type="All">All</button>
+        <button class="filter-btn" data-type="Talk">Talks</button>
+        <button class="filter-btn" data-type="Workshop">Workshops</button>
+        <button class="filter-btn" data-type="Panel">Panels</button>
+        <button class="filter-btn" data-type="Social">Social</button>
+        <button class="filter-btn" data-type="Keynote">Keynotes</button>
+      </div>
     </div>
+
+    <section id="event-container" aria-live="polite"></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="copyright-year"></span> TechCon · All rights reserved.</p>
-      <p class="small">Built with ❤ for the quiz. Repository & deployment required for submission.</p>
-    </div>
+  <footer>
+    <p>© 2025 Tech Conference. All rights reserved.</p>
   </footer>
-
-  <script src="scripts.js" defer></script>
-
-
-
-
 </body>
-
 </html>
