@@ -21,7 +21,7 @@ const events = [
         type: "Workshop",
         date: "2025-11-20T10:30:00",
         description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-        image: "images/workshop-js.jpg"
+        image: "bmt-quiz-2-events-07/workshop-js.jpg"
     },
 
  {
@@ -36,14 +36,14 @@ const events = [
         type: "Talk",
         date: "2025-11-20T14:00:00",
         description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
-        image: "images/quantum.jpg"
+        image: "quantum.jpg"
     },
  {
         title: "Networking Mixer & Welcome Reception",
         type: "Social",
         date: "2025-11-20T17:00:00",
         description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers.",
-        image: "images/mixer.jpg"
+        image: "mixer.jpg"
     },
 // Day 2
     {
@@ -79,7 +79,7 @@ const events = [
         type: "Panel",
         date: "2025-11-21T16:00:00",
         description: "Industry leaders discuss the challenges, tools, and culture of building successful remote-first teams.",
-        image: "images/panel-remote.jpg"
+        image: "panel-remote.jpg"
     },
 
     // Day 3
