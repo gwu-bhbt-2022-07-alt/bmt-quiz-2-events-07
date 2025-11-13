@@ -1,40 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechCon 2025 — Event Schedule</title>
-  <link rel="stylesheet" href="main.css" />
-  <script defer src="scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2025 Event Schedule</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <h1>TechCon 2025 — Event Schedule</h1>
-      <p class="tagline">Explore. Learn. Connect.</p>
-    </div>
-    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
-  </header>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <h1>TechCon 2025</h1>
+                </div>
+                <p class="tagline">Exploring the Future of Technology</p>
+                <div class="date-location">
+                    <div>
+                        <i class="far fa-calendar-alt"></i>
+                        <span>November 20-22, 2025</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>San Francisco, CA & Virtual</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <main>
-    <div class="controls">
-      <input type="text" id="search" placeholder="Search events..." aria-label="Search events">
-      <div class="filters">
-        <button class="filter-btn active" data-type="All">All</button>
-        <button class="filter-btn" data-type="Talk">Talks</button>
-        <button class="filter-btn" data-type="Workshop">Workshops</button>
-        <button class="filter-btn" data-type="Panel">Panels</button>
-        <button class="filter-btn" data-type="Social">Social</button>
-        <button class="filter-btn" data-type="Keynote">Keynotes</button>
-      </div>
-    </div>
+    <!-- Controls Section -->
+    <section class="controls">
+        <div class="container">
+            <div class="controls-inner">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Search events...">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th-large"></i> All Events
+                    </button>
+                    <button class="filter-btn" data-filter="Keynote">
+                        <i class="fas fa-microphone"></i> Keynotes
+                    </button>
+                    <button class="filter-btn" data-filter="Talk">
+                        <i class="fas fa-comments"></i> Talks
+                    </button>
+                    <button class="filter-btn" data-filter="Workshop">
+                        <i class="fas fa-laptop-code"></i> Workshops
+                    </button>
+                    <button class="filter-btn" data-filter="Panel">
+                        <i class="fas fa-users"></i> Panels
+                    </button>
+                    <button class="filter-btn" data-filter="Social">
+                        <i class="fas fa-glass-cheers"></i> Social
+                    </button>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </section>
 
-    <section id="event-container" aria-live="polite"></section>
-  </main>
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div id="events-container" class="events-container">
+                <!-- Event cards will be dynamically inserted here -->
+            </div>
+            <div id="no-events-message" class="text-center mt-2 hidden">
+                <h3>No events match your search criteria</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        </div>
+    </main>
 
-  <footer>
-    <p>© 2025 Tech Conference. All rights reserved.</p>
-  </footer>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About TechCon 2025</h3>
+                    <p>TechCon is the premier technology conference bringing together industry leaders, innovators, and enthusiasts to explore the latest trends and advancements in technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Schedule</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Speakers</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Venue</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Sponsors</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@techcon2025.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Moscone Center, San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 TechCon Conference. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
