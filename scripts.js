@@ -58,14 +58,14 @@
                 type: "Workshop",
                 date: "2025-11-21T13:00:00",
                 description: "Optimize your React applications by learning memoization, code splitting, and bundle analysis techniques.",
-                image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th/id/OIP.nBQyN0rkT90UfAXVJ-szHQHaE1?w=241&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
             {
                 title: "The Psychology of User Experience (UX)",
                 type: "Talk",
                 date: "2025-11-21T14:00:00",
                 description: "Understand the cognitive biases and psychological principles that drive effective UX design decisions.",
-                image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th/id/OIP.qDfq9Hzk3XqSSbhPH4bE6gHaEK?w=291&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
             {
                 title: "Panel: The Future of Remote Work in Tech",
@@ -88,7 +88,7 @@
                 type: "Talk",
                 date: "2025-11-22T10:00:00",
                 description: "A case study on migrating a large-scale legacy application to a modern serverless architecture.",
-                image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://img.freepik.com/premium-photo/smart-city-infrastructure-detailed-background-wallpaper_1152148-2309.jpg"
             },
             {
                 title: "State of Web Assembly in 2025",
@@ -102,14 +102,14 @@
                 type: "Workshop",
                 date: "2025-11-22T13:30:00",
                 description: "Learn to create stunning, interactive data visualizations for the web from scratch using D3.js.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://img.reintech.io/variants/xcsg7zwq4uxuc3el28w2e597tjd3/e7b4ce09c703210ab8f75b017c7eaf0951c5a95b737ee8120602845c1c1d944b"
             },
             {
                 title: "Closing Panel: Ask Me Anything with Speakers",
                 type: "Panel",
                 date: "2025-11-22T16:00:00",
                 description: "An open Q&A session with a panel of the conference's top speakers. No topic is off-limits!",
-                image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://www.t3summit.com/wp-content/uploads/2023/06/22-122-0203-scaled.jpg"
             },
 
             // --- Bonus Events ---
@@ -118,14 +118,14 @@
                 type: "Social",
                 date: "2025-11-19T09:00:00",
                 description: "A 24-hour coding challenge with prizes for the most innovative projects. Kicks off before the main event.",
-                image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://innovation-labs.transforms.svdcdn.com/servd/Stories/Fall-2024-orientation-filtered-1.jpg?w=600&h=400&q=82&auto=format&fit=crop&dm=1727380318&s=b6b1963ed54bd2600c0fc3d5bd95c454"
             },
             {
                 title: "API Design Best Practices",
                 type: "Talk",
                 date: "2025-11-21T15:00:00",
                 description: "Learn how to design, document, and maintain clean, consistent, and easy-to-use RESTful APIs.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://th.bing.com/th?id=OIF.NiPhFo78QGXHq1%2fxcxYXgA&w=211&h=181&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1"
             },
             {
                 title: "DevOps Culture and Tooling",
@@ -146,7 +146,7 @@
                 type: "Social",
                 date: "2025-11-22T17:30:00",
                 description: "Join us as we celebrate the best of the conference and announce the hackathon winners.",
-                image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                image: "https://i.ytimg.com/vi/gdw7D8uRqpQ/maxresdefault.jpg"
             }
         ];
 
