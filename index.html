@@ -2,9 +2,58 @@
 <html>
 <head>
     
-    <title>Document</title>
+    <title>TechCon 2025 Event Schedule</title>
+
 </head>
+
 <body>
     <h1>web dev</h1>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 id="site-title">TechCon 2025 Event Schedule</h1>
+        <p class="sub">Nov 19–22, 2025 · Hybrid · Colombo</p>
+      </div>
+
+      <div class="controls">
+        <div class="theme-toggle" role="group" aria-label="Theme controls">
+          <button id="theme-toggle-btn" aria-pressed="false" title="Toggle dark mode">🌙</button>
+        </div>
+        <div class="search-wrap" role="search">
+          <label for="search" class="visually-hidden">Search events</label>
+          <input id="search" type="search" placeholder="Search events..." aria-label="Search events" />
+        </div>
+      </div>
+    </div>
+
+    <nav class="filters" aria-label="Event type filters">
+      <div class="container" role="toolbar" aria-label="Filter events">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Keynote">Keynotes</button>
+        <button class="filter-btn" data-filter="Workshop">Workshops</button>
+        <button class="filter-btn" data-filter="Talk">Talks</button>
+        <button class="filter-btn" data-filter="Panel">Panels</button>
+        <button class="filter-btn" data-filter="Social">Social</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="event-toolbar" class="toolbar">
+        <div id="results-aria" aria-live="polite" class="results-aria">Showing all events</div>
+      </section>
+
+      <section id="event-container" class="event-grid" aria-live="polite"></section>
+    </div>
+  </main>
+
+
+
 </body>
+
 </html>
